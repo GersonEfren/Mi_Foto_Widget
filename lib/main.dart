@@ -50,28 +50,25 @@ class PaginaInicio extends StatelessWidget {
               ), //Fin de Text.Container
               SizedBox(height: 50),
               Container(
-                height: 100,
-                width: 100,
-                child: Icon(
-                  Icons.account_box,
-                  color: Colors.deepOrange[900],
-                  size: 100,
-                ),
+                height: 150,
+                width: 150,
                 decoration: BoxDecoration(
+                  color: Colors.indigo,
+                  image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/vianeyalejandra03/mis_imagenes/main/icon.jpg"), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.orange[900],
+                      color: Colors.purple[300],
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.orange[900],
+                      color: Colors.purple[300],
                       width: 5.0,
                     ),
                   ),
-                ),
-              ), //Fin de c.Foto
-               SizedBox(height: 50),
-                 Container(
+                ), //fin de el decoration box
+              ), //fin de el container foto
+              SizedBox(height: 50),
+              Container(
                 height: 100,
                 width: 200,
                 child: TextField(
@@ -91,7 +88,7 @@ class PaginaInicio extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),//Fin de container de 
+              ), //Fin de container de
             ], //fin del children
           ), //fin de p.colum
         ), //centro
