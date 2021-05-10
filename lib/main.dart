@@ -57,11 +57,11 @@ class PaginaInicio extends StatelessWidget {
                   image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/GersonEfren/Mis_Pictures/main/pepe.jpg"), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.purple[300],
+                      color: Colors.orange[900],
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.purple[300],
+                      color: Colors.orange[900],
                       width: 5.0,
                     ),
                   ),
